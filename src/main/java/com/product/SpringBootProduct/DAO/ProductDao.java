@@ -19,7 +19,7 @@ public class ProductDao
 	//to add task object to DB(insertion)
 	public Product addProduct(Product product) 
 	{
-		repository.save(product);
+		repository.save(product);//uyiyiu
 		return product;
 	}
 	
